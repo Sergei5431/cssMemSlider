@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>cssMemSlider</title>
     <link rel="stylesheet" href="./sryle.css">
+    <link rel="stylesheet" href="./normalize.css">
 </head>
+
 <body>
-    <script src="./script.js"></script>
+    <div class="wrapper">
+        <input class="input" type="radio" name="slide" id="r1" checked />
+        <input class="input" type="radio" name="slide" id="r2" />
+        <input class="input" type="radio" name="slide" id="r3" />
+        <input class="input" type="radio" name="slide" id="r4" />
+        <input class="input" type="radio" name="slide" id="r5" />
+        <div class="slider">
+          <div class="slider-img">
+            
+            <img class="img" src="./assets/bird.jpg" alt="bird" /> 
+            <img class="img" src="./assets/cat.jpg" alt="cat" />
+            <img class="img" src="./assets/dog.jpg" alt="dog" />
+            <img class="img" src="./assets/mandarin.jpg" alt="mandarin" />
+            <img class="img" src="./assets/shark.jpg" alt="shark" /> 
+         
+        </div>
+    </div>
+    <div class="slider-text">
+      <div class="all-text">
+                <div class="text s1">
+                    <h2>Голуби все видят</h2>
+                </div>
+                <div class="text">
+                    <h2>Понимающий кот</h2>
+                </div>
+                <div class="text">
+                    <h2>Люблю мандарины</h2>
+                </div>
+                <div class="text">
+                    <h2>Притворился акулой</h2>
+                </div>
+                <div class="text">
+                    <h2>Притворился акулой</h2>
+                </div>
+            </div>
+        </div>
+        <div class="labels">
+          <label class="label" for="r1"></label>
+          <label class="label" for="r2"></label>
+          <label class="label" for="r3"></label>
+          <label class="label" for="r4"></label>
+          <label class="label" for="r5"></label>
+        </div>
+      </div>
 </body>
+
+
 </html>
