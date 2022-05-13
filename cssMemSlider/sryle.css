@@ -125,9 +125,9 @@ label {
     transition: .3s;
 }
 
-#r1:checked~.slider .slider-img,
+#r1:checked~.slider .slider-img ,
 #r1:checked~.slider-text .all-text {
-    transform: translateX();
+    transform: translateX(0);
 }
 
 #r2:checked~.slider .slider-img,
