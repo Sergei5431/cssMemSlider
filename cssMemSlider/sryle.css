@@ -135,6 +135,7 @@ label {
     transform: translateX(-50%);
 }
 
+
 @media (max-width: 850px) {
     .wrapper {
         flex-direction: column;
