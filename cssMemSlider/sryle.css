@@ -93,9 +93,9 @@ body {
 }
 
 label {
-    width: 6rem;
+    width: 4rem;
     height: 6rem;
-    padding: 1.8rem;
+    padding: 1.8rem 0.8rem;
     cursor: pointer;
 }
 
