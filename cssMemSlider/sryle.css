@@ -28,7 +28,8 @@ html {
 }
 
 h2 {
-    height: 4rem;
+    height: 9rem;
+    line-height:4rem;
 }
 
 body {
@@ -59,7 +60,8 @@ body {
 }
 
 .slider-text {
-    max-width: 65%;
+    padding-top: 4%;
+    max-width: 55%;
     overflow: hidden;
 }
 
@@ -91,9 +93,9 @@ body {
 }
 
 label {
-    width: 4rem;
-    height: 4rem;
-    padding: 0.8rem;
+    width: 6rem;
+    height: 6rem;
+    padding: 1.8rem;
     cursor: pointer;
 }
 
@@ -150,7 +152,7 @@ label {
     transform: translateX(-50%);
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
     .wrapper {
         flex-direction: column;
         margin-right: 0;
@@ -161,7 +163,7 @@ label {
     }
 
     .text {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     .slider-text {
@@ -172,11 +174,15 @@ label {
     .labels {
         justify-content: center;
     }
+
+    .slider-text {
+        padding-top: 0.1%;
+    }
 }
 
 @media (max-width:480px) {
     .text {
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 
     body {
