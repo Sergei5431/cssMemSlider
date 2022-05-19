@@ -1,6 +1,10 @@
 html {
     font-size: 10px;
 }
+ 
+body{
+    min-height: 100vh;
+}
 
 .input {
     display: none;
@@ -158,6 +162,11 @@ label {
         margin-right: 0;
     }
 
+    .a{
+        font-size: 3rem; 
+        word-break: break-all;
+    }
+
     .label {
         margin-right: 1%;
     }
@@ -188,4 +197,9 @@ label {
     body {
         padding: 1rem;
     }
+
+    .a{
+        font-size: 2rem; 
+    }
 }
+
